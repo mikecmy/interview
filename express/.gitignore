@@ -1,6 +1,0 @@
-node_modules/
-dist/
-*.log
-src/RouterInfo.ts
-src/PageAlias.ts
-src/IRouterInfo.ts
