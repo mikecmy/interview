@@ -1,0 +1,36 @@
+{
+  "overrides": [
+    {
+      "files": ["*.json", ".eslintrc", ".tslintrc", ".prettierrc", ".tern-project"],
+      "options": {
+        "parser": "json",
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.ts",
+      "options": {
+        "parser": "typescript",
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.pug",
+      "options": {
+        "parser": "pug",
+        "singleQuote": false,
+        "tabWidth": 2,
+        "useTabs": false
+      }
+    },
+    {
+      "files": "*.vue",
+      "options": {
+        "parser": "pug",
+        "singleQuote": false,
+        "tabWidth": 2,
+        "useTabs": false
+      }
+    }
+  ]
+}
